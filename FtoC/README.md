@@ -18,3 +18,10 @@ it was right
 
 now im realizing that there are decisions to make
 i tried to make `fIn & Out` and `cIn & Out` and use the `console.log()` to display the `fOut` and i think `console.log(fOut)`
+
+###Damn
+it didn't work :(
+SyntaxError: Unexpected number '5'. Expected ';' after variable declaration.
+
+so I think having `cOut & fOut` wasn't the greatest idea
+so i should include the formulas in the parenthesis of `console.log()`?
