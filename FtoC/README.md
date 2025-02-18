@@ -25,3 +25,5 @@ SyntaxError: Unexpected number '5'. Expected ';' after variable declaration.
 
 so I think having `cOut & fOut` wasn't the greatest idea
 so i should include the formulas in the parenthesis of `console.log()`?
+
+###I forgot semicolons
