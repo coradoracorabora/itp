@@ -27,3 +27,25 @@ so I think having `cOut & fOut` wasn't the greatest idea
 so i should include the formulas in the parenthesis of `console.log()`?
 
 ###I forgot semicolons
+###Still didn't work
+SyntaxError: Unexpected number '5'. Expected ')' to end an argument list.
+it looks like the sandbox is highlighting the number 5 in `5/9` on line 5 differently than the other numbers
+i dont know why thats happening? and i dont totally remember what an argument list is
+also that number isn't being highlighted differently in the Ftoc.js file sooooooo like idk
+
+###ugh
+so i tried deleting different parts of the phrase to see where the issues were
+i fould out that the part of the `console.log` where i was saying a little like `oh this the conversion and you can read it like a person` was registering not as a string of text, and instead as a function
+not good
+idk why though? i thought quotoations would have made it clear that the computer just needs to print that phrase as is
+so i took that out and it still wasnt working?
+so i took out `console.log((f - 32) 5/9)` and it worked! but that's the opposite conversion of what i was supposed to do and also i don't see why line 4 works but not line 5
+still getting "SyntaxError: Unexpected number '5'. Expected ')' to end an argument list."
+
+###so it kind of works
+like i said, i dont get why the conversion from celsius to fahrenheit works but not the other way around
+i think the computer is expecting line 5 to be `console.log((f - 32))` so the `5/9` is the issue, but like,,, its just a 5? why is that confusing? do i need to put that fraction in parenthesis?
+
+so adding parenthesis gives this output "TypeError: (f - 32)  is not a function. (In '(f - 32) (5/9)', '(f - 32) ' is 67)"
+which honestly makes no sense to me
+
