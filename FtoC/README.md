@@ -49,3 +49,16 @@ i think the computer is expecting line 5 to be `console.log((f - 32))` so the `5
 so adding parenthesis gives this output "TypeError: (f - 32)  is not a function. (In '(f - 32) (5/9)', '(f - 32) ' is 67)"
 which honestly makes no sense to me
 
+### take 3 (i think 3)
+why is it saying that `(f - 32)` isn't a function? cause it's telling me that its equal to 67
+like thats the whole point? why don't you just do that??? and then keep doing the math???
+^thats me talking to the computer
+i'm also thinking now that since i only needed to use the `c` constant to get the conversion from c=>f, maybe i'm going about this wrong? like why else would the instructions say to create both variables?
+
+###oh my fucking god im dumb (kidding im actually so smart and the computer is dumb)
+so i assumed that having the two pieces of the equation `(f - 32)` and `(5/9)` just next to each other would imply multiplication because that's how math works
+but thats not how **COMPUTERS** because why would they work like that
+i just needed to add a `*` between the two parenthetical expressions
+duh
+
+#it works! yay!
