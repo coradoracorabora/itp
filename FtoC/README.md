@@ -62,3 +62,8 @@ i just needed to add a `*` between the two parenthetical expressions
 duh
 
 #it works! yay!
+
+###a little extra
+i just wanted to title the two values so that it was a little more clear
+i wanted to put the titles on the same line as the values but i couldn't figure out how to do that, like have the `console.log` do the math and also say the string of words at the same time
+not sure, but im still just glad it works
