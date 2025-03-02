@@ -44,3 +44,14 @@ i hope divisibility is a word
 do i need to be checking if a number is divisible by 3 or 5 before the `count++`? or can i just do it after, later in the while loop or in a different function altogether?
 
 I think in the middle of the function is necessary, time for nesting!
+
+can you nest a for loop inside of a while loop? i fucking hope so
+
+wait no i just need to use line 51 (while-else loop) which answers some of those questions
+
+im just gonna pick a number in the middle to have it replace so i can make sure i'm doint the fundamental part of this right, i'll figure out dividing later
+
+also I'll have it pick a range of numbers? cause i think i can get it to do that pretty easily?
+
+just realized that i can't tell the console to log 2 different outputs for the same input, 5 can't be 5 and also something else
+
