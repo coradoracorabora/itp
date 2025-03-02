@@ -25,3 +25,30 @@ while (count <= 100) {
 	}
   count++;
 }
+
+//starting to apply the "divisible" part of this, using some of the earlier code as a model
+//adding stuff from line 71 to get the divisible stuff in order, i think the rest is in place? so i just copy pasted what was above to replace stuff
+
+let count = 1;
+while (count <= 100) {
+	if (count < 5) {
+		console.log(`${count}`);
+	} else if (count > 15) {
+		console.log(`${count}`);
+	} else {
+		console.log("cora is so smart and computers are so dumb")
+	}
+  count++;
+}
+
+
+//NEVERMIND I THINK I FOUND A WAY EASIER WAY TO DO THIS
+//JUST COPY LINE 71 AND ADD SOME IF ELSE STATEMENTS IN THERE
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log(i);
+  }
+}
+
+

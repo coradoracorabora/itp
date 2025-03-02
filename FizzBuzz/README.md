@@ -72,3 +72,17 @@ i retract my statement on line 64, i just need to be using the `console.log(`$(c
 woo! i replaced the first 9 integers! not sure how to say "replace things in this range" yet but ill think about that for a second and probably just move on if i can't totally get it
 
 okay i got it to only change numbers between 5 and 15 but i used the wrong parenthesis, quick fix then moving on
+###step 3: the divisible part
+i think i just need to edit the `if` and `else if` parts of my function to get it to say something different 
+
+"something different" meaning fizz and buzz and fizzbuzz if it's divisible by the right numbers
+
+side note - im also just now realizing that my summary of the last update was written totally backwards and wrong for the code i was using, but i think will be true in the final product
+
+back on track - i wonder if i can just put in conditions for fizz and buzz and just hope that does the trick? like will I need to have another `else-if` line in there for the numbers that are fizzbuzz and not just one or the other?
+
+im gonna try just putting in the fizz and buzz separately and see what happens at numbers like 15
+
+DETOUR - i wanna try just going off of what's on line 71 because i think that might be simpler and more effective than what i was gonna do
+
+okay proof of concept by having the console only display numbers that would be "fizzbuzz" went well, im gonna abandon my previous plan of using my previous work and just changing parts of the `if-else` statements
