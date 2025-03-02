@@ -3,12 +3,25 @@
 
 let count = 1;
 while (count <= 100) {
-  console.log(`${count}`);
+	//if-else to prioritize things that need to be replaced, then using "else" to count upwards otherwise
+	if (count < 10) {
+		console.log("nonono");
+	} else {
+		console.log(`${count}`);
+	}
   count++;
 }
 
-//adding from line 51 to make this a while-else loop, getting it to replace some numbers to make sure i know how to do that
 
-if (count > 5) {
-	console.log("ITS ALIVE")
+//trying out a version of this where only numbers 5-15 are replaced, i think it'll take a little more work than I thought
+let count = 1;
+while (count <= 100) {
+	if (count < 5) {
+		console.log(`${count}`);
+	} else if (count > 15) {
+		console.log(`${count}`);
+	} else {
+		console.log("cora is so smart and computers are so dumb")
+	}
+  count++;
 }

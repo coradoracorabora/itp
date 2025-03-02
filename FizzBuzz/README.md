@@ -54,4 +54,21 @@ im just gonna pick a number in the middle to have it replace so i can make sure 
 also I'll have it pick a range of numbers? cause i think i can get it to do that pretty easily?
 
 just realized that i can't tell the console to log 2 different outputs for the same input, 5 can't be 5 and also something else
+###hit a roadblock
+line 71 only displays numbers that are divisible by 5 and 7, and the while else loop onn line 51 will display two different things while counting upwards, but is there a way for me to replace some of the inputs?
 
+like i thought i could just use the 51 thing and have it count and then adding in a function like on 71 would cause it to replace the numbers that are referenced in the second function
+
+but like, do i need to have the counter only display some numbers, and figure out how to slot the fizz and buzz in between? or is there a way to 
+
+nvm i think i get it more now, using a console.log inside of the while loop is good to make sure shit is working, but i think i'll need to take it out before i make more progress?
+
+i wonder if there is a way to say "between these two numbers" like "say something different between 5 and 10 and then keep counting"
+
+gonna work on that with an if-else loop BEFORE the `console.log()` in the while loop
+
+i retract my statement on line 64, i just need to be using the `console.log(`$(count)`)` as the `else` in the if-else statment i think
+
+woo! i replaced the first 9 integers! not sure how to say "replace things in this range" yet but ill think about that for a second and probably just move on if i can't totally get it
+
+okay i got it to only change numbers between 5 and 15 but i used the wrong parenthesis, quick fix then moving on
