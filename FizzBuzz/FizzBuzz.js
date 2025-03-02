@@ -47,8 +47,45 @@ while (count <= 100) {
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-    console.log(i);
+    	console.log("FizzBuzz");
+  } else if (i % 3 === 0){
+	  	console.log("Fizz");
+  } else if (i % 5 === 0){
+	  	console.log("Buzz");
+  } else {
+	  	console.log(`${count}`);
+  }
+}
+
+// working on it down here in case i fuck something up and need to go back
+//also mainly because i still want to try not having a specific condition for "fizzbuzz" and wanna see if separate "fizz" and "buzz" will work on their own
+
+//NEVERMIND I THINK I FOUND A WAY EASIER WAY TO DO THIS
+//JUST COPY LINE 71 AND ADD SOME IF ELSE STATEMENTS IN THERE
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0) {
+    	console.log("Fizz");
+  } else if (i % 5 === 0) {
+    	console.log("Buzz");
+  } else {
+	  	console.log(i);
   }
 }
 
 
+
+
+//final version??? i hope and i pray??? (im not even religious)
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    	console.log("FizzBuzz");
+  } else if (i % 3 === 0){
+	  	console.log("Fizz");
+  } else if (i % 5 === 0){
+	  	console.log("Buzz");
+  } else {
+	  	console.log(`${i}`);
+  }
+}

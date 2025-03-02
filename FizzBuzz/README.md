@@ -86,3 +86,19 @@ im gonna try just putting in the fizz and buzz separately and see what happens a
 DETOUR - i wanna try just going off of what's on line 71 because i think that might be simpler and more effective than what i was gonna do
 
 okay proof of concept by having the console only display numbers that would be "fizzbuzz" went well, im gonna abandon my previous plan of using my previous work and just changing parts of the `if-else` statements
+###step 3.1: the same thing but better? or like easier at least?
+okay i tried just using line 71 as the main template and only specifying for "fizz" and "buzz" but it didnt work on the lines that were supposed to be "fizzbuzz"
+
+worth a shot, at least i know now, im gonna try to specify "fizzbuzz" first and then specify the individual ones, then count
+
+i think thatll work because the number 15 says "fizz", and i specified "fizz" before "buzz"
+
+which makes me think that if something is already there, the following instructions are ignored?
+
+lets see
+#WOOOOHOOOOO
+it worked!
+
+i'll push these versions of the files and then go back and clean up my FizzBuzz.js file because i have a lot of versions of the same thing in there
+
+i did it like that so i could always just copy and paste from my older work without gettting worried about losing something and having to look back at the github repository to figure out what i did
