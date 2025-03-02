@@ -102,3 +102,5 @@ it worked!
 i'll push these versions of the files and then go back and clean up my FizzBuzz.js file because i have a lot of versions of the same thing in there
 
 i did it like that so i could always just copy and paste from my older work without gettting worried about losing something and having to look back at the github repository to figure out what i did
+#cleaning up the fizzbuzz.js
+i think i could use some of the other commands in the codealong.js to figure out if what i'm doing is correct, like getting it to count the number of times "fizz" or "buzz" show up in the documents, but frankly i'm a little too lazy and im satisfied knowing that that would probably work
