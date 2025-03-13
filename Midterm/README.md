@@ -53,3 +53,33 @@ changing the `function keyPressed` to add an `else if` and `else` so the other t
   }
 }`
 ###What have we not done yet? telling it to play the sound!!!
+I need to change the `playCustomSound` function
+
+i laid the groundwork for that in the last step, i just need to create 3 functions now called `playSound2`, so just more copying and modifying
+
+###error
+i tried that and i think those edits i just described should work but first i ran into an error on line 39
+
+it's in a function `keyPressed()` that starts at line 33 and it's the last `else` statement
+
+it's saying `SyntaxError: Unexpected token '{'` but that line looks exactly the same to me and I would need `{}` brackets to specify what happens in the else clause
+
+wait no, cause i'm telling it to do something, this needs to be another `else if` cause I can't specify what "else" is
+
+I hope I can just do another `else if` and not worry about adding an `else` to the end of the function
+
+seems to work fine
+
+##no sound but no errors
+so I'm not getting any sound, but the console is also saying all the sounds are loaded successfully
+
+wait no this is a `#user #error #moment` and I needed to click in the preview box
+
+BUT i have a new issue, i tried pressing "q" and it didn't go
+
+`ReferenceError: q is not defined`
+
+gonna look through for errors/typos
+
+found it, I just needed to put the keys like `q/w/e` in "quotes"
+#it works yay!
